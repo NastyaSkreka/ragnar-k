@@ -1,0 +1,30 @@
+{
+  "name": "tomkovich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "webpack",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,scss,html,json}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "prettier": "^3.1.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.2",
+    "webpackbar": "^6.0.0"
+  },
+  "dependencies": {
+    "serve": "^14.2.0",
+    "swiper": "^9.2.0"
+  }
+}
